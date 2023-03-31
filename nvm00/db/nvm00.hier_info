@@ -1,0 +1,12 @@
+|nvm00
+clk => tempo[0].CLK
+clk => tempo[1].CLK
+clk => tempo[2].CLK
+rst => tempo[0].ACLR
+rst => tempo[1].ACLR
+rst => tempo[2].ACLR
+count[0] <= tempo[0].DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= tempo[1].DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= tempo[2].DB_MAX_OUTPUT_PORT_TYPE
+
+
